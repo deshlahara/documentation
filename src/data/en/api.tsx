@@ -138,13 +138,13 @@ export default {
             (read more from the React doc for Default Values)
           </a>
           , pass <code>defaultValues</code> as an optional argument to
-          <code>useForm()</code> to populate the default values for the entire
+          <code>{" "}useForm()</code> to populate the default values for the entire
           form, or set values on an individual
           <button
             className={buttonStyles.codeAsLink}
             onClick={() => goToSection("Controller")}
           >
-            Controller
+            {" "}Controller
           </button>{" "}
           component via its <code>defaultValue</code> property.
         </p>
